@@ -1,0 +1,48 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+
+.info{
+    background-color: rgba(251, 208, 72);
+    height: auto;
+}
+
+.rowInfo{
+    
+    font-family: per;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    position: sticky;
+    top: 70px !important;
+    
+}
+
+.colInfo{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.labelInfo{
+    margin-bottom: 20px !important;
+}
+
+.h3{
+    font-size: 12px;
+    font-family: fuente2;
+    margin: 0;
+}
+
+.subrayado{
+    text-decoration: underline;
+    margin: 0;
+    font-size: 12px;
+}
+
+.imgInfo{
+    width: 100%;
+}
+

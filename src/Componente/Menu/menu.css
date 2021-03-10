@@ -1,0 +1,53 @@
+@font-face {
+    font-family: per;
+    src: url(fuente/HelveticaNeue.ttc);
+
+  }
+
+.menu{
+    margin: 20px 0 40px 25px!important;
+    font-size:12px ;
+    font-family:per !important;  
+    font-weight: bold;
+    padding: 0% !important;
+    width: 98%;
+    background-color: transparent !important;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+}
+
+
+.nombre{
+    padding: 0%  !important;
+    margin-right: 2px !important;
+    width: 170px;
+    text-align: left;
+    color: black;
+}
+
+.nombre:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.signo{
+    padding: 0 !important;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.imgSigno{
+    display: block; 
+    margin-left: auto;
+    width: 25px;
+}
+
+.activo{
+    text-decoration: underline;
+}
+
+
+
+  
+  
