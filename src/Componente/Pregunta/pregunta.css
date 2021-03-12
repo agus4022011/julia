@@ -1,0 +1,52 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
+    font-family: per;
+    src: url(../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
+.RowPre{
+    background-color: black;
+    height: auto;
+    font-size: 12px;
+    padding-top: 70px !important;
+    text-align: left;
+}
+
+.ColPre{
+    color: white;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.h3Pre{
+    margin-bottom: 20px !important;
+    font-size: 12px;
+    font-family: fuente2;
+    margin: 0;
+   
+}
+
+.labelPre{
+    margin-bottom: 20px !important;
+   /* line-height: 1.2;*/
+   
+}
+.labelPre1{
+    margin-bottom: 20px !important;
+    /*line-height: 1.2;*/
+    font-family: fuente2;
+    
+    
+}
+
+.subrayadoPre{
+    text-decoration: underline;
+    margin: 0;
+    font-size: 12px;
+}

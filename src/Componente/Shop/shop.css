@@ -1,0 +1,16 @@
+.colShop1{
+    padding-left: 25px !important;
+    padding-right: 13px !important;
+}
+
+.colShop2{
+    padding-left: 12px !important;
+    padding-right: 25px !important;
+   
+}
+
+.RowShop{
+    background-color: rgb(205, 201, 193);
+    min-height: 100vh;
+    padding-top: 70px !important;
+}

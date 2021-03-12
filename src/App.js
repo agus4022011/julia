@@ -8,7 +8,8 @@ import Work from './Componente/Work/work';
 import Laboratory from './Componente/Laboratory/laboratory';
 import Info from './Componente/Info/info';
 import Shop from './Componente/Shop/shop';
-
+import Pregunta from './Componente/Pregunta/pregunta';
+import EstructuraImg from './Componente/Shop/EstructuraImg/estructuraImg';
 
 
 
@@ -23,6 +24,8 @@ function App() {
         <Route exact path='/Laboratory' component={Laboratory}></Route>
         <Route exact path='/Info' component={Info}></Route>
         <Route exact path='/Shop' component={Shop}></Route>
+        <Route exact path='/Shop' component={Shop}></Route>
+        <Route exact path='/Pregunta' component={Pregunta}></Route>
       </Switch>
     </div>
     </BrowserRouter>

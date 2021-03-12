@@ -4,6 +4,12 @@
 
   }
 
+ @font-face {
+    font-family: per;
+    src: url(../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
 
 .info{
     background-color: rgba(251, 208, 72);
@@ -13,7 +19,6 @@
 .rowInfo{
     
     font-family: per;
-    font-weight: bold;
     font-size: 12px;
     text-align: left;
     position: sticky;
@@ -28,6 +33,7 @@
 
 .labelInfo{
     margin-bottom: 20px !important;
+    /*line-height: 1.2;*/
 }
 
 .h3{

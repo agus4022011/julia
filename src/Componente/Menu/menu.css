@@ -1,6 +1,12 @@
 @font-face {
+    font-family: fuente2;
+    src: url(../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
     font-family: per;
-    src: url(fuente/HelveticaNeue.ttc);
+    src: url(../Menu/fuente/HelveticaNeue.ttc);
 
   }
 
@@ -8,7 +14,6 @@
     margin: 20px 0 40px 25px!important;
     font-size:12px ;
     font-family:per !important;  
-    font-weight: bold;
     padding: 0% !important;
     width: 98%;
     background-color: transparent !important;
@@ -47,6 +52,10 @@
     text-decoration: underline;
 }
 
+
+.activoPregunta{
+   color: white;
+}
 
 
   

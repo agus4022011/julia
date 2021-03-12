@@ -1,0 +1,88 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
+    font-family: per;
+    src: url(../../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
+
+.labelShop{
+    text-align: left;
+    width: 70%;
+    font-size: 12px;
+}
+
+.labelShopBold{
+    font-size: 11px;
+    font-family: fuente2;
+}
+
+.labelItems{
+    font-family: per;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.subShop{
+    font-family: per;
+    font-size: 12px;
+}
+
+.imgShop{
+    font-family: per;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.subShop:hover{
+    text-decoration: underline;
+
+}
+
+.labelShop2{
+    text-align: right;
+    width: 30%;
+    font-size: 12px;
+}
+
+.imgSHOP{
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.precio{
+    font-size: 12px;
+    font-family: per;
+    margin-right: 15px;
+}
+
+.inputShop{
+    width: 100px;
+    height: 14px;
+    font-size: 12px;
+    font-family: per;
+    text-align: center;
+    line-height:0 !important;
+    background-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: black;
+    outline: none;
+}
+
+.itemsMenos{
+    width: 18px;
+}
+
+.itemsMas{
+    width: 18px;
+}
+

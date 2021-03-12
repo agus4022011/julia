@@ -19,9 +19,9 @@ class Menu extends Component {
             <Link className={'nombre ' + (this.props.location.pathname== '/Laboratory' ? 'activo':' ')} to='/Laboratory'>Laboratory</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Info' ? 'activo':' ')} to='/Info'>Info</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Shop' ? 'activo':' ')} to='/Shop'>Shop</Link>
-            <Nav.Link  className='signo'>
+            <Link  className='signo' to='/Pregunta'>
               <img src={im.default} className='imgSigno' alt=""/>
-            </Nav.Link>
+            </Link>
 
              
         </Navbar>
