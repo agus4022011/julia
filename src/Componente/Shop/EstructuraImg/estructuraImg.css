@@ -18,7 +18,7 @@
 }
 
 .labelShopBold{
-    font-size: 11px;
+    font-size: 12px;
     font-family: fuente2;
 }
 
@@ -50,12 +50,11 @@
     font-size: 12px;
 }
 
-.imgSHOP{
+/*.imgSHOP{
     width: 100%;
-    margin-bottom: 25px;
-    margin-top: 25px;
-
-}
+    margin-bottom: 20px;
+    margin-top: 20px;
+}*/
 
 .precio{
     font-size: 12px;
@@ -79,10 +78,8 @@
 }
 
 .itemsMenos{
-    width: 18px;
+    width: 12px;
+    height: auto;
 }
 
-.itemsMas{
-    width: 18px;
-}
 

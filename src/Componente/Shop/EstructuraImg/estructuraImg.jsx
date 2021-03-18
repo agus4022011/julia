@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap';
+import ControlledCarousel from '../CarruselShop/carruselShop';
 import'./estructuraImg.css'
 
 class EstructuraImg extends Component {
@@ -7,16 +8,16 @@ class EstructuraImg extends Component {
         super(props);
         this.state = {  }
     }
-    render() { 
+    render(props) { 
 
         var imgMas = require('../../imgEstilo/signomas.png');
         var imgMenos = require('../../imgEstilo/signomenos.png');
 
-        return ( <>
+        return ( 
         <div className='w-100 d-flex'>
                 <label className='labelShop m-0'>
-                    <label className='labelShopBold'>Z Poster, Print, 50 x 70 cm</label> 
-                    <label className='labelItems' > - </label> 
+                    <label className='labelShopBold'>{this.props.Titulo}</label> 
+                    <label className='labelItems' > <Image className='itemsMenos' src={imgMenos.default}/> </label> 
                     <label className=' subShop' >Previous </label> 
                     <label className='labelItems'> / </label> 
                     <label className=' subShop'>Next image </label>
@@ -24,20 +25,12 @@ class EstructuraImg extends Component {
                 </label>
  
                 <label className='labelShop2 m-0'>
-                    <label className='precio'>U$S 30</label>
-                    <input className='inputShop ' type="number" placeholder="Add to Cart"/>
-                    <label className=''>
-                        <Image className='itemsMas' src={imgMas.default}/>
-                    </label>
-                    <label className=''>
-                        <Image className='itemsMenos' src={imgMenos.default}/>
-                    </label>
-                </label>
-                
-               
+                    <label className='precio'>U$S {this.props.Precio}</label>
+                </label>    
         </div>
-        <Image className='imgSHOP' src="https://www.timeoutdubai.com/public/images/2020/07/13/IMG-Dubai-UAE.jpg" />
-        </>
+
+     
+       
     );
     }
 }

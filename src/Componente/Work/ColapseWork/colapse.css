@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
+}
+
+@font-face {
+    font-family: per;
+    src: url(../../Menu/fuente/HelveticaNeue.ttc);
+}
+
+
+
+.labelBold{
+    font-size: 12px;
+    font-family: fuente2;
+  }
+
+.itemsWork{
+    font-family: per;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+.subWork{
+    font-family: per;
+    font-size: 12px;
+  }
+
+.subWork:hover{
+    text-decoration: underline;
+  }
+
+.workImg{
+  width: 18.8%;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-right: 1.5% !important;
+  margin-top: 1.5% !important;
+}
+
+.workImg:last-child{
+  margin-right: 0% !important;
+
+}
+
+.col1{
+  width: 40.6% !important;
+ 
+}
+
+.col2{
+  width: 40.6% !important;
+
+
+}
+
+.col3{
+  width: 18.8% !important;
+  
+
+}

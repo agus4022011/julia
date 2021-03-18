@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import EstructuraWork from './EstructuraWork/estructuraWork';
 import './work.css'
 
 class Work extends Component {
@@ -7,7 +8,11 @@ class Work extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div></div> );
+        return (
+            <div className='work w-100'>
+                <EstructuraWork/>
+            </div>
+            );
     }
 }
  
