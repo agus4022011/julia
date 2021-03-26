@@ -14,7 +14,7 @@ class EstructuraImg extends Component {
         var imgMenos = require('../../imgEstilo/signomenos.png');
 
         return ( 
-        <div className='w-100 d-flex'>
+        <div className='w-100 d-flex margen'>
                 <label className='labelShop m-0'>
                     <label className='labelShopBold'>{this.props.Titulo}</label> 
                     <label className='labelItems' > <Image className='itemsMenos' src={imgMenos.default}/> </label> 
@@ -26,6 +26,8 @@ class EstructuraImg extends Component {
  
                 <label className='labelShop2 m-0'>
                     <label className='precio'>U$S {this.props.Precio}</label>
+                    <label className=' subShop'>{this.props.Link}</label>
+
                 </label>    
         </div>
 

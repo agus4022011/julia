@@ -13,7 +13,7 @@ class Menu extends Component {
         let im = require('../imgEstilo/signopreguntas.png'); 
         return (
             
-          <Navbar className='menu' >
+          <Navbar className={'menu ' + (this.props.location.pathname== '/Pregunta' ? 'Pregunta':' ') } >
             <Link className={'nombre ' + (this.props.location.pathname== '/' ? 'activo':' ')} to='/'>Julia Miceli Pitta</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Work' ? 'activo':' ')} to='/Work'>Work</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Laboratory' ? 'activo':' ')} to='/Laboratory'>Laboratory</Link>

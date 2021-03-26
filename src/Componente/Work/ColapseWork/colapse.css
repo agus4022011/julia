@@ -1,37 +1,40 @@
 @font-face {
-    font-family: fuente2;
-    src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
+  font-family: fuente2;
+  src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
 }
 
 @font-face {
-    font-family: per;
-    src: url(../../Menu/fuente/HelveticaNeue.ttc);
+  font-family: per;
+  src: url(../../Menu/fuente/HelveticaNeue.ttc);
 }
 
+.colapWork {
+  display: inline-flex;
+  justify-content: center;
+}
 
+.labelBold {
+  font-size: 12px;
+  font-family: fuente2;
+}
 
-.labelBold{
-    font-size: 12px;
-    font-family: fuente2;
-  }
+.itemsWork {
+  font-family: per;
+  font-size: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
 
-.itemsWork{
-    font-family: per;
-    font-size: 12px;
-    margin-left: 4px;
-    margin-right: 4px;
-  }
+.subWork {
+  font-family: per;
+  font-size: 12px;
+}
 
-.subWork{
-    font-family: per;
-    font-size: 12px;
-  }
+.subWork:hover {
+  text-decoration: underline;
+}
 
-.subWork:hover{
-    text-decoration: underline;
-  }
-
-.workImg{
+.workImg {
   width: 18.8%;
   margin: 0 !important;
   padding: 0 !important;
@@ -39,24 +42,67 @@
   margin-top: 1.5% !important;
 }
 
-.workImg:last-child{
+.workImg:last-child {
   margin-right: 0% !important;
-
 }
 
-.col1{
+.div1 {
   width: 40.6% !important;
- 
+  padding-top: 70px !important;
+  padding-right: 20px !important;
 }
 
-.col2{
+.div2 {
   width: 40.6% !important;
-
-
+  padding-top: 70px !important;
+  padding-right: 20px !important;
 }
 
-.col3{
+.div3 {
   width: 18.8% !important;
-  
+  padding-top: 70px !important;
+}
 
+.año2 {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .workImg {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 1.5% !important;
+    margin-top: 1.5% !important;
+  }
+
+  .div1 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+    padding-right: 0px !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+    padding-right: 20px !important;
+  }
+
+  .div3 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+  }
+
+  .colapWork {
+    display: block;
+    justify-content: center;
+  }
+
+  .año1 {
+    display: none;
+  }
+
+  .año2 {
+    display: flex;
+  }
 }

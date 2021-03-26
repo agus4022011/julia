@@ -19,10 +19,11 @@
 .rowInfo{
     
     font-family: per;
-    font-size: 12px;
+    font-size: 11px;
     text-align: left;
     position: sticky;
     top: 70px !important;
+    padding-top: 70px !important;
     
 }
 
@@ -37,18 +38,83 @@
 }
 
 .h3{
-    font-size: 12px;
+    font-size: 11px;
     font-family: fuente2;
     margin: 0;
+    line-height: 1.5;
 }
 
 .subrayado{
     text-decoration: underline;
     margin: 0;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .imgInfo{
     width: 100%;
 }
 
+.imgInfoRes{
+    width: 100%;
+    display: none;
+}
+
+.imgInfo1{
+    width: 100%;
+
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media (max-width:700px){
+    .colInfo{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        flex-basis: auto;
+        top: 70px !important;
+    }
+
+    .imgInfo1{
+        display: none;
+    
+    }
+
+    .imgInfoRes{
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .h3{
+        font-size: 12px;
+        font-family: fuente2;
+        margin: 0;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .labelInfo{
+        margin-bottom: 20px !important;
+        /*line-height: 1.2;*/
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .colInfo{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .des{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    
+}

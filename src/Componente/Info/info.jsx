@@ -20,21 +20,31 @@ class Info extends Component {
 
         return (
         <Row className='p-0 m-0 info'>
-            <Col sm={6} className=' p-0 m-0 '>
+            <Col sm={6} className=' p-0 m-0 scroll'>
                 <Row  className='p-0 m-0 rowInfo sticky-top'>
                     <Col className='p-0 m-0 colInfo'>
+                    <label  className=' labelInfo'>
+                        Say Hi anytime, I’m always open for new work collaborations,
+                        joining teams and freelance work: <label className='subrayado'>hello@juliamicelipitta.com</label> <br/>
+                        Web: <label className='subrayado'> Instagram, Behance, Linkedin</label>
+                    </label>    
+
+            <Image className='imgInfoRes ' src={img1.default}/>
+
+                   
                     <label className=' labelInfo'>
                         Julia Miceli Pitta is an Argentine graphic designer based
                         between Buenos Aires and London. Her practice is always under
-                        construction. It sits in between conceptual thinking and exploration, 
-                        with an unorthodox flavour. She specializes in visual identity, 
-                        editorial design and creative direction.
+                        construction. It sits in between conceptual thinking and explora-
+                        tion, with an unorthodox flavour. She specializes in visual identi-
+                        ty, editorial design and creative direction.
                     </label>
 
                     <label className=' labelInfo'>
                         She studied at the University of Buenos Aires, where she also
                         taught Design as a teaching professor. Her aim is to encourage
-                        students to think critically, develop their own voice and experiment fearlessly.
+                        students to think critically, develop their own voice and experi-
+                        ment fearlessly.
                     </label>
 
                     <label className=' labelInfo'>
@@ -53,9 +63,9 @@ class Info extends Component {
                         Her work has been recognized all over the world. She had the
                         honor of being part of multiple exhibitions, publications and
                         contests. Moreover, in 2019 Julia won first place in two different
-                        categories in The Biennale of Design in Argentina and in 2020
-                        she was selected to participate in the “Object Book Festival” in
-                        Milan with a book collection project.
+                        categories in The Biennale of Design in Argentina and in 2021
+                        she was selected to participate in the “XIIIth Florence Biennale”
+                        in Florence with diverse projects.
                     </label>
 
                     <h3 className='h3'>Selected Clients</h3>
@@ -71,7 +81,7 @@ class Info extends Component {
                         González</label> (writer), <label className='subrayado'>Mariana Bendersky</label> (Architect), <label className='subrayado'>Paula Speier</label>
                         (Fashion Designer), <label className='subrayado'>Daniel Dewar & Natasha Fox</label> (Writers), <label className='subrayado'>
                         Giovanni Presutti</label> (Photographer), <label className='subrayado'>Alberto Campo Baeza</label>
-                         (Architectural Studio), <label className='subrayado'>Nic Lehoux</label> (Photographer).
+                         (Architectural Studio), <label className='subrayado'>Bournemouth University</label> (University).
                     </label>
 
                     <h3 className='h3'>Services</h3>
@@ -97,64 +107,60 @@ class Info extends Component {
                         </Col>
                     </Row>
                     
-                    <label  className=' labelInfo'>
-                        Say Hi anytime, I’m always open for new work collaborations,
-                        joining teams and freelance work: <label className='subrayado'>hello@juliamicelipitta.com</label> <br/>
-                        Web: <label className='subrayado'> Instagram, Behance, Linkedin</label>
-                    </label>
-
                     </Col>
 
                     <Col className='p-0 m-0 colInfo'>
 
                     <h3 className='h3'>Honors & Awards</h3>
 
-                    <div>— Selected to participate: Ladies, Wine & Design / Host: Jessica
+                    <div className='des'>— Selected to participate: Ladies, Wine & Design / Host: Jessica
                             Walsh, NYC, United States (Apr 2020)</div>
-                    <div>— Contest winner: "Graphic Illustration" 4th Biennale of Design,
+                    <div className='des'>— Contest winner: "Graphic Illustration" 4th Biennale of Design,
                             Buenos Aires, Argentina (Aug 2019)</div>
                     <div  className=' labelInfo'>— Contest winner: "Institutional Identity" 4th Biennale of Design,
                             Buenos Aires, Argentina (Aug 2019)</div>
 
                     <h3 className='h3'>Selected Publications</h3>        
 
-                    <h6 className='subrayado'>Press Publications</h6>        
+                    <h6 className='subrayado des'>Press Publications</h6>        
 
-                    <div>— Grid System in Different Media: Preface Author (700 words),
+                    <div className='des'>— Grid System in Different Media: Preface Author (700 words),
                         HIGHTONE Publishing company (Feb 2020)</div>
-                    <div>— Grid System in Different Media: Project Publication,
+                    <div className='des'>— Grid System in Different Media: Project Publication,
                         HIGHTONE Publishing company (Feb 2020)</div>
-                    <div>— The Argentine Biennale Catalogue: Project Publication,
+                    <div className='des'>— The Argentine Biennale Catalogue: Project Publication,
                         4th Biennale of Design (Jul 2019)</div>
-                    <div>— LAYOUT NOW The proportion: Project Publication,
+                    <div className='des'>— LAYOUT NOW The proportion: Project Publication,
                         SendPoints Publishing Co., Ltd (Feb 2018)</div>
-                    <div>— Code of Color: Branding & Identity: Project Publication,
+                    <div className='des'>— Code of Color: Branding & Identity: Project Publication,
                         Sandu Publishing (Jan 2016)</div>
                     <div  className=' labelInfo'>— Stand Out: Design a Personal Brand: Project Publication,
                         Denise Anderson (Jan 2016)</div>
 
-                    <h6 className='subrayado'>Web Publications</h6>  
+                    <h6 className='subrayado des'>Web Publications</h6>  
 
-                    <div>— Stefan Sagmeister: Project Publication (Aug 2020)</div>
-                    <div>— Femme Type: Project Publication (Jun 2020)</div>
-                    <div>— 13 of the best creative resumés: Creative Bloq (Oct 2019)</div>
-                    <div>— ProactiveCreative: Project Publication (Mar 2019)</div>
-                    <div>— 10 of the best creative cvs: Primary Technologies (2018)</div>
-                    <div className=' labelInfo'>— Design Taxi: Project Publication (Mar 2016)</div>
+                    <div className='des'>— Stefan Sagmeister: Project Publication (Aug 2020)</div>
+                    <div className='des'>— Femme Type: Project Publication (Jun 2020)</div>
+                    <div className='des'>— 13 of the best creative resumés: Creative Bloq (Oct 2019)</div>
+                    <div className='des'>— ProactiveCreative: Project Publication (Mar 2019)</div>
+                    <div className='des'>— 10 of the best creative cvs: Primary Technologies (2018)</div>
+                    <div className='des' className=' labelInfo'>— Design Taxi: Project Publication (Mar 2016)</div>
 
                     <h3 className='h3'>Selected Exhibitions</h3> 
 
-                    <div>— Object Book Festival: Book Collection, Milan, Italy (Dec 2020)</div>
-                    <div>— BID Madrid: DOXA Film Festival, Madrid, Spain (Nov 2019)</div>
-                    <div>— International UBA Poster Festival: The Mud Boy, Buenos
+                    <div className='des'>— XIIIth Florence Biennale 2021, Communication & Graphic
+                            Design, Florence, Italy (Oct 2021)</div>
+                    <div className='des'>— Object Book Festival: Book Collection, Milan, Italy (Dec 2020)</div>
+                    <div className='des'>— BID Madrid: DOXA Film Festival, Madrid, Spain (Nov 2019)</div>
+                    <div className='des'>— International UBA Poster Festival: The Mud Boy, Buenos
                             Aires, Argentina (Aug 2019)</div>
-                    <div>— Centro Cultural Recoleta (CCR): The Mud Boy Book, Buenos
+                    <div className='des'>— Centro Cultural Recoleta (CCR): The Mud Boy Book, Buenos
                             Aires, Argentina (Nov 2018)</div>
-                    <div>— Trimarchi (TMDG): Experimental Posters, Buenos Aires,
+                    <div className='des'>— Trimarchi (TMDG): Experimental Posters, Buenos Aires,
                             Argentina (Nov 2018)</div>
-                    <div>— EUDEBA Publishing, 60 Years / 1958-2018: Social Poster,
+                    <div className='des'>— EUDEBA Publishing, 60 Years / 1958-2018: Social Poster,
                             Buenos Aires, Argentina (Sep 2018)</div>
-                    <div>— Fragments: Typography Deconstructed, POCKO Gallery:
+                    <div className='des'>— Fragments: Typography Deconstructed, POCKO Gallery:
                             Experimental Poster, London, England (Aug 2016)</div>
                     
                     </Col> 
@@ -176,8 +182,8 @@ class Info extends Component {
              
             </Col>
 
-            <Col sm={6} className='p-0 m-0'>
-            <Image className='imgInfo ' src={img1.default}/>
+            <Col sm={6} className='p-0 m-0 scroll'>
+            <Image className='imgInfo1 ' src={img1.default}/>
             <Image className='imgInfo' src={img2.default}/>
             <Image className='imgInfo' src={img3.default}/>
             <Image className='imgInfo' src={img4.default}/>

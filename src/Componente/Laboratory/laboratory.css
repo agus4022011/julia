@@ -5,3 +5,11 @@
 
 }
 
+@media (max-width: 700px) {
+    .labImg{
+        width: 50%;
+        margin: 0 !important;
+        padding: 0 !important;
+    
+    }
+}

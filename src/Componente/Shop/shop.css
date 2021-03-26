@@ -12,5 +12,6 @@
 .RowShop{
     background-color: rgb(205, 201, 193);
     min-height: 100vh;
-    padding-top: 70px !important;
+    padding-bottom: 20px !important;
+    
 }

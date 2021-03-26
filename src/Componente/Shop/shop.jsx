@@ -19,6 +19,33 @@ class Shop extends Component {
         let Poster = require ('./img/ShopInthemood1.jpg');
         let Poster2 = require ('./img/ShopInthemood2.jpg');
 
+        let mud1 = require ('./img/ShopMud1.jpg');
+        let mud2 = require ('./img/ShopMud2.jpg');
+        let mud3 = require ('./img/ShopMud3.jpg');
+
+        let precion1 = require ('./img/ShopPresion1.jpg');
+        let precion2 = require ('./img/ShopPresion2.jpg');
+
+        let geo1 = require ('./img/ShopGeo1.jpg');
+        let geo2 = require ('./img/ShopGeo2.jpg');
+        let geo3 = require ('./img/Geo3.jpg');
+        let geo4 = require ('./img/Geo4.jpg');
+
+        let numb1 = require ('./img/ShopNumb1.jpg');
+        let numb2 = require ('./img/ShopNumb2.jpg');
+        let numb3 = require ('./img/ShopNumb3.jpg');
+
+        let mujer1 = require ('./img/Mujer1.jpg');
+        let mujer2 = require ('./img/ShopMujer2.jpg');
+
+        let mus1 = require ('./img/ShopMusique1.jpg');
+        let mus2 = require ('./img/ShopMusique2.jpg');
+
+
+
+
+
+
         return (
 
             <Row className='p-0 m-0 RowShop'>
@@ -27,6 +54,7 @@ class Shop extends Component {
                 <EstructuraImg
                 Titulo={'Z Poster, Print, 50 x 70 cm'}
                 Precio={'30'}
+                Link={'shop Now'}
                 /> 
                 <ControlledCarousel
                 img1={z1.default}
@@ -38,10 +66,35 @@ class Shop extends Component {
                 <EstructuraImg
                 Titulo={'In the mood for love, Poster, 21 x 28,8 cm'}
                 Precio={'22'}
+                Link={'shop Now'}
                 /> 
                 <ControlledCarousel
                 img1={Poster.default}
                 img2={Poster2.default}
+                img3={null}
+                img4={null}
+                />
+
+                <EstructuraImg
+                Titulo={'The Mud Boy, Set of 6 Postards, 13,5 x 10,5 cm'}
+                Precio={'25'}
+                Link={'Coming Soon'}
+                /> 
+                <ControlledCarousel
+                img1={mud1.default}
+                img2={mud2.default}
+                img3={mud3.default}
+                img4={null}
+                />
+
+                <EstructuraImg
+                Titulo={'Presión, Poster, 50 x 70 cm'}
+                Precio={'25'}
+                Link={'Coming Soon'}
+                /> 
+                <ControlledCarousel
+                img1={precion1.default}
+                img2={precion1.default}
                 img3={null}
                 img4={null}
                 />
@@ -50,6 +103,53 @@ class Shop extends Component {
 
                 <Col sm={6} className=' p-0 m-0 colShop2'>
              
+                <EstructuraImg
+                Titulo={'Geometrical Posters, 4 Prints, 21 x 29,7 cm'}
+                Precio={'25'}
+                Link={'shop Now'}
+                /> 
+                <ControlledCarousel
+                img1={geo1.default}
+                img2={geo2.default}
+                img3={geo3.default}
+                img4={geo4.default}
+                />
+
+                <EstructuraImg
+                Titulo={'Numbers, Publication, 12 x 19,5 cm'}
+                Precio={'12'}
+                Link={'Coming Soon'}
+                /> 
+                <ControlledCarousel
+                img1={numb1.default}
+                img2={numb2.default}
+                img3={numb3.default}
+                img4={null}
+                />
+
+                <EstructuraImg
+                Titulo={'Woman, Poster, 29,7 x 42 cm'}
+                Precio={'25'}
+                Link={'shop Now'}
+                /> 
+                <ControlledCarousel
+                img1={mujer1.default}
+                img2={mujer2.default}
+                img3={null}
+                img4={null}
+                />
+
+                <EstructuraImg
+                Titulo={'Musique, Poster, 16 x 22 cm'}
+                Precio={'12'}
+                Link={'shop Now'}
+                /> 
+                <ControlledCarousel
+                img1={mus1.default}
+                img2={mus2.default}
+                img3={null}
+                img4={null}
+                />
                 </Col>
                
             </Row>
