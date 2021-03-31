@@ -25,17 +25,14 @@ class Work extends Component {
                     return(
                     <Example
                         Titulo={item.Titulo}
-                        SubTitulo1={item.SubTitulo1}
+                        SubTitulo1={item.SubTitulo1 }
                         SubTitulo2={item.SubTitulo2}
                         SubTitulo3={item.SubTitulo3}
                         Año={item.Año}
                         Descripcion1={item.Descripcion1}
                         Descripcion2={item.Descripcion2}
-
                         lsImg={item.ImgUrls}
                         lsImgDos={item.ImgUrls.splice(5)}
-
-                    
                     />
                         
 

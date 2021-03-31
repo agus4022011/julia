@@ -12,10 +12,12 @@
 
 .RowPre{
     background-color: black;
-    height: auto;
+    height: auto !important;
     font-size: 12px;
     padding-top: 70px !important;
     text-align: left;
+    padding-bottom: 0px !important;
+
 }
 
 .ColPre{
@@ -57,5 +59,16 @@
         padding-left: 20px !important;
         padding-right: 20px !important;
         flex-basis: auto;
+    }
+}
+
+
+@media (min-height: 700px){
+    .RowPre{
+        background-color: black;
+        height: 100vh !important;
+        font-size: 12px;
+        padding-top: 70px !important;
+        text-align: left;
     }
 }

@@ -36,7 +36,7 @@
     color: black;
 }
 
-.menu:hover * {text-decoration: underline;}
+.menu:hover >a {text-decoration: underline;}
 
 .signo{
     padding: 0 !important;
@@ -65,8 +65,28 @@
 
 }
 
+.filtro{
+    width: 240px;
+}
 
-  
+#filtro1{
+    margin-right: 2%;
+    text-decoration: none !important;
+}
+
+.filtroOpcion{
+    text-decoration: underline;
+}
+
+.filtroAtras{
+    margin-left: 4%;
+}
+
+.filtroAtras:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
   
 @media (max-width:700px){
     .nombre {

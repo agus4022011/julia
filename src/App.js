@@ -9,7 +9,7 @@ import Laboratory from './Componente/Laboratory/laboratory';
 import Info from './Componente/Info/info';
 import Shop from './Componente/Shop/shop';
 import Pregunta from './Componente/Pregunta/pregunta';
-import EstructuraImg from './Componente/Shop/EstructuraImg/estructuraImg';
+
 
 
 

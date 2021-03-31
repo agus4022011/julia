@@ -9,11 +9,22 @@ class Menu extends Component {
         super(props);
         this.state = {  }
     }
+    componentDidUpdate(){
+      localStorage.getItem("filtro")
+    }
+
     render(props) {
         let im = require('../imgEstilo/signopreguntas.png'); 
         return (
             
           <Navbar className={'menu ' + (this.props.location.pathname== '/Pregunta' ? 'Pregunta':' ') } >
+            {localStorage.getItem("filtro") && 
+            <div className="d-flex filtro">
+              <span id="filtro1" className="">Filtro:</span>
+              <span className="filtroOpcion">{ localStorage.getItem("filtro") }</span>
+              <span className="filtroAtras">view all</span>
+            </div>
+            }
             <Link className={'nombre ' + (this.props.location.pathname== '/' ? 'activo':' ')} to='/'>Julia Miceli Pitta</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Work' ? 'activo':' ')} to='/Work'>Work</Link>
             <Link className={'nombre ' + (this.props.location.pathname== '/Laboratory' ? 'activo':' ')} to='/Laboratory'>Laboratory</Link>

@@ -21,15 +21,16 @@ class Info extends Component {
         return (
         <Row className='p-0 m-0 info'>
             <Col sm={6} className=' p-0 m-0 scroll'>
+
                 <Row  className='p-0 m-0 rowInfo sticky-top'>
-                    <Col className='p-0 m-0 colInfo'>
+                    <Col className='p-0 m-0 colInfo margenInfo'>
                     <label  className=' labelInfo'>
                         Say Hi anytime, I’m always open for new work collaborations,
                         joining teams and freelance work: <label className='subrayado'>hello@juliamicelipitta.com</label> <br/>
                         Web: <label className='subrayado'> Instagram, Behance, Linkedin</label>
                     </label>    
 
-            <Image className='imgInfoRes ' src={img1.default}/>
+                        <Image className='imgInfoRes ' src={img1.default}/>
 
                    
                     <label className=' labelInfo'>
@@ -109,7 +110,7 @@ class Info extends Component {
                     
                     </Col>
 
-                    <Col className='p-0 m-0 colInfo'>
+                    <Col className='p-0 m-0 colInfo margenInfo'>
 
                     <h3 className='h3'>Honors & Awards</h3>
 
@@ -165,7 +166,7 @@ class Info extends Component {
                     
                     </Col> 
 
-                 <Row className='m-0 p-0 w-100'> 
+                 <Row className='m-0 p-0 w-100 h-100'> 
                     <Col  sm={6} className='m-0 p-0 colInfo'> 
                     <label className=' labelInfo'>
                     All rights reserved - Copyright © 2021 Julia Miceli Pitta
@@ -182,7 +183,7 @@ class Info extends Component {
              
             </Col>
 
-            <Col sm={6} className='p-0 m-0 scroll'>
+            <Col sm={6} className='p-0 m-0 scroll1'>
             <Image className='imgInfo1 ' src={img1.default}/>
             <Image className='imgInfo' src={img2.default}/>
             <Image className='imgInfo' src={img3.default}/>

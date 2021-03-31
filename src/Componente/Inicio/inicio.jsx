@@ -8,7 +8,15 @@ function CarouselInicio(props) {
   
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
-    };
+
+     };
+
+    const moverCarru = (e) => {
+      if(e.charCode==13){
+        console.log("hola");
+      }
+      console.log("hola2");
+    }
 
     let c1 = require ('./img/1C.jpg');
     let c2 = require ('./img/2C.jpg');
@@ -40,193 +48,198 @@ function CarouselInicio(props) {
 
   
     return (
-      <Carousel indicators={false}  keyboard={true} interval={null} activeIndex={index} onSelect={handleSelect} className='h-100'>
-        <Carousel.Item classNameÇ='inicio'>
+      <Carousel indicators={false} onKeyPress={moverCarru}  interval={null} activeIndex={index} onSelect={handleSelect} className='h-100'>
+
+        <Carousel.Item className='' onKeyPress={moverCarru}>
           <img
-            className="d-block w-100"
+            className="d-block inicio"
             src={c1.default}
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='' >
           <img
-            className="d-block w-100"
+            className="d-block inicio"
             src={c2.default}
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c3.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c4.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c5.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c6.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c7.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c8.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c9.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c10.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c11.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c12.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c13.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c14.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c15.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c16.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c17.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c18.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c19.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c21.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c22.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c23.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c24.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c25.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c26.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={c27.default}
-            alt="First slide"
-          />
-        </Carousel.Item>
-    
+       
+      
       </Carousel>
     );
   }
   
 
   export default CarouselInicio;
+
+
+   /* <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c3.default}
+            alt="First slide"
+          />
+        </Carousel.Item> 
+        <Carousel. className=''>
+          <img
+            className="d-block inicio"
+            src={c4.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c5.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c6.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c7.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c8.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c9.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c10.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c11.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c12.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c13.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c14.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c15.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c16.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c17.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c18.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c19.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c21.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c22.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c23.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c24.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c25.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c26.default}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item className=''>
+          <img
+            className="d-block inicio"
+            src={c27.default}
+            alt="First slide"
+          />
+        </Carousel.Item>*/
+    
