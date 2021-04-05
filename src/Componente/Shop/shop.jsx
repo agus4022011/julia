@@ -12,7 +12,7 @@ class Shop extends Component {
 
     render() { 
 
-        let z1 = require ('./img/ShopZ1.jpg');
+        let z1= require ('./img/ShopZ1.jpg');
         let z2 = require ('./img/ShopZ2.jpg');
 
         let Poster = require ('./img/ShopInthemood1.jpg');
